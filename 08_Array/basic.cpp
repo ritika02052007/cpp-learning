@@ -4,6 +4,8 @@
 using namespace std;
 int main(){
     int arr[3]={1,2,3};
-    cout<<arr[0];
+    for(int i = 0; i<3;i++){
+        cout<<arr[i]<<" ";
+    }
     return 0;
 }
